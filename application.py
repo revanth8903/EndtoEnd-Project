@@ -39,13 +39,8 @@ def predict_datapoint():
         return render_template('home.html')
 
 
-
 if __name__=="__main__":
     app.run(host="0.0.0.0")         ## When We give 0.0.0.0 as host address, this is basically mapped to the local IP address of 
                                     ## any machine we are working 
 
 
-
-
-
-                                    
